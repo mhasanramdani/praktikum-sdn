@@ -1,0 +1,15 @@
+{
+  "devices": {
+    "of:0000000000000001": { "basic": { "name": "Seattle" } },
+    "of:0000000000000002": { "basic": { "name": "Sunnyvale" } },
+    "of:0000000000000003": { "basic": { "name": "Los Angeles" } },
+    "of:0000000000000004": { "basic": { "name": "Denver" } },
+    "of:0000000000000005": { "basic": { "name": "Kansas City" } },
+    "of:0000000000000006": { "basic": { "name": "Houston" } },
+    "of:0000000000000007": { "basic": { "name": "Chicago" } },
+    "of:0000000000000008": { "basic": { "name": "Indianapolis" } },
+    "of:0000000000000009": { "basic": { "name": "Atlanta" } },
+    "of:000000000000000a": { "basic": { "name": "Washington DC" } },
+    "of:000000000000000b": { "basic": { "name": "New York" } }
+  }
+}

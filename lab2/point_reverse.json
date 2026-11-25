@@ -1,0 +1,16 @@
+{
+  "type": "PointToPointIntent",
+  "appId": "org.onosproject.cli",
+  "key": "lab2-api-r",
+  "priority": 40000,
+  "ingressPoint": { "device": "of:0000000000000003", "port": "1" },
+  "egressPoint": { "device": "of:0000000000000001", "port": "1" },
+  "selector": {
+    "criteria": [
+      { "type": "ETH_TYPE", "ethType": "0x0800" },
+      { "type": "ETH_SRC", "mac": "00:00:00:00:00:03" },
+      { "type": "ETH_DST", "mac": "00:00:00:00:00:01" }
+    ]
+  },
+  "treatment": { "instructions": [], "deferred": [] }
+}
